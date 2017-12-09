@@ -1,0 +1,28 @@
+div.page-header h1 a {
+  color: #FFFFFF;
+  font-family: 'Playfair Display', serif;
+}
+
+div.page-header {
+  text-align: center;
+}
+
+.page-header {
+  margin-top: 0;
+padding-top: 30px;
+padding-bottom: 25px;
+background-color: #246342;
+}
+
+p.post-date {
+color: #2B9127;
+}
+
+h1 a {
+  color: #91AFE3;
+}
+
+.content {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  padding-left: 15px;
+}
