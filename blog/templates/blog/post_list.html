@@ -3,14 +3,15 @@
        <title>Maj's</title>
     </head>
     <body>
-      <div>
-        <h1><a href="/">Maj's blog</a></h1>
-      </div>
+      <h1><a href="/">Välkommen!</a></h1>
 
-      <div>
-        <p> publiserat: 09.12.2017, 13:02</p>
-      <h2><a href="">Välkommen</a></h2>
-      <p>Hej allihopa och välkomna till min blog!</p>
-    </div>
+{% for post in posts %}
+<div>
+<p>published: {{ post.published_date }}</p>
+<h1><a href="">{{ post.title }}</a></h1>
+<p>{{ post.text|linebreaksbr }}</p>
+</div>
+{% endfor %}
+    
     </body>
 </html>
